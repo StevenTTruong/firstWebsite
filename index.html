@@ -1,0 +1,77 @@
+<head>
+   <meta charset="UTF-8">
+   <title>Steven Truong</title>
+   <link id='csslink' rel="stylesheet" href="main.css">
+
+   <script>
+      
+
+     function toggleCSS() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+         }
+ </script>
+
+</head>
+<body>
+
+   <div class="banner">
+      <div class="navbar">
+         <img src="banner.png" class="logo">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><link rel="stylesheet" href="alternate.css"></li>
+            <button onclick="toggleCSS()">Switch Style</button>
+         </ul>
+
+      </div>
+
+      <div class="content">
+         <h1>HELLO,</h1>
+         <p>
+            I'm a student at the University of South Florida studying Information Technology with a passion for software development. <br>My goal is to use my technical skills and creativity to build innovative and intuitive software solutions.
+         </p>
+      </div>
+
+      <div class ="skills">
+         <h2><ul>Skills</ul></h2>
+
+            <div style="display: inline-block; text-align: left;">
+            <li class="java">Java</li>
+            <li class="python">Python</li>
+            <li class="c">C</li>
+            <li class="html">HTML</li>
+            <li class="css">CSS</li>
+            </div>
+      </div>
+
+   </div>
+
+   <footer>
+
+      <div class="social">
+         <ul>
+             <li>
+                 <a href="https://github.com/" target="_blank"><img src="icons/github.png" alt=""></a>
+             </li>
+             
+             <li>
+                 <a href="https://www.linkedin.com/" target="_blank"><img src="icons/linkedin.png" alt=""></a>
+             </li>
+             <li>
+                 <a href="https://www.facebook.com/" target="_blank"><img src="icons/facebook.png" alt=""></a>
+             </li>
+             
+         </ul>
+     </div>
+
+      <div class="footer">
+         <p>Copyright © 2023 Steven Truong. All Rights Reserved</p>
+      </div>
+
+   </footer>
+
+</body>
+</html>

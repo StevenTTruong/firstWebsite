@@ -1,0 +1,99 @@
+.dark-mode .banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.dark-mode .content{
+    width: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+    transform: translateY(-50%);
+    transform: translateX(50%);
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.dark-mode .skills{
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    transform: translateX(50%);
+    border-radius: 50px;
+}
+
+.dark-mode .java{
+    list-style-image: url('icons/java_white.png');
+  }
+
+
+.dark-mode .python{
+    list-style-image: url('icons/python_white.png');
+  }
+
+
+.dark-mode .html{
+    list-style-image: url('icons/html_white.png');
+  }
+
+
+
+.dark-mode .css{
+    list-style-image: url('icons/css3_white.png');
+  }
+
+.dark-mode #experience h2{
+    color:white
+}
+
+.dark-mode .heading{
+    position:relative;
+    display:inline-block;
+    font-size:2em;
+    font-weight:300;
+    margin:0 0 30px 0;
+    color: white;
+}
+
+.dark-mode .background-alt{
+    background:black;
+}
+
+.dark-mode table{
+    color: white;
+    background-color: black;
+}
+
+.dark-mode caption{
+    background-color: black;
+    border-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.dark-mode h4{
+    color: white;
+}
+
+.dark-mode h3{
+    color: white;
+}
+
+.dark-mode p{
+    color: white;
+}
