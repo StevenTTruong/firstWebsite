@@ -1,3 +1,5 @@
+This is my personal resume website that I will be making changes to get experience with HTML, CSS, and JavaScript. This is also giving me experience with using git.
+
 Contact information
 Resume Linkedin Github 
 
